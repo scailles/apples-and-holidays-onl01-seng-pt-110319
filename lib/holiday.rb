@@ -76,6 +76,7 @@ holiday_hash.each do |season, holiday|
       bbq.push(supply)
     end
   end
+end
   bbq
 end
 

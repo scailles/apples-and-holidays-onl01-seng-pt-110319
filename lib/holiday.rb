@@ -59,7 +59,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 array = holiday_hash[:winter].map do |winter, supply|
    supply
-   return array
+   return array.flatten
 end
 end
 

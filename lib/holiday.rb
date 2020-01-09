@@ -63,6 +63,7 @@ holiday_hash.each do |season, holiday|
     puts "#{holiday.to_s.gsub("_", " ").split.map(&:capitalize).join(' ')}: #{items.join(", ")}"
 end
 end
+end
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists

@@ -57,10 +57,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-array = holiday_hash[:winter].map do |holiday, supply|
-   return supply
- end
-   array.flatten
+holiday_hash[:winter].values.flatten
 end
 
 
